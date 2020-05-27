@@ -9,9 +9,6 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
     <div>
-  <BrowserRouter basename={window.location.pathname || ''}>
-  <Route exact path="/" component={App} />
-</BrowserRouter>
     <App />
     </div>
     
