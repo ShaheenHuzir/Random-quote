@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: content-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background: url(./assets/marble-background.png) no-repeat;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    padding: 2px;
+    text-align: center;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.content-box{
+
+        height: 300px;
+}
+
+.quote-wrapper{
+            width: 50vw;
+            min-height: 50vh;
+            padding: 20px;
+            margin: 5px;
+            border-width: 2px;
+            border-image:  linear-gradient(to bottom,#D4AF37,gold) 27 / 3px;
+            background-color:rgba(255, 255, 255, 0.4);
+            box-shadow: goldenrod 2px 2px 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+}
+
+.quote-wrapper .quote{
+    font-size: 32px;
+    font-weight: 600;
   }
+
+.btn-wrap{
+    width: 100%;
+    padding: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button{
+    width: 50%;
+    padding: 5px;
+    background-color:whitesmoke ;
+    color:black;
+    border: goldenrod solid 0.2px;
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes  onloadz{
+    0%{
+        opacity: 0;
+
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+         opacity: 1;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.example-enter {
+        opacity: 0.01;
+      }
+      
+.example-enter.example-enter-active {
+        opacity: 1;
+        transition: opacity 500ms ease-in;
+      }
+.showme{
+    animation-name: onloadz;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    background-color:red;
 }
