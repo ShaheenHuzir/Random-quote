@@ -1,4 +1,4 @@
-import {React} from 'react';
+import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -10,7 +10,7 @@ ReactDOM.render(
   <React.StrictMode>
     <div>
   <BrowserRouter basename={window.location.pathname || ''}>
-  <Route exact path="/" component={Index} />
+  <Route exact path="/" component={App} />
 </BrowserRouter>
     <App />
     </div>
