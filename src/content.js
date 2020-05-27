@@ -64,6 +64,7 @@ class Content extends React.Component {
             <div className="wrapper container" id="quote-box">
                  <div className={`quote-wrapper`} >
                  <Quote quotes={quote} verseNumber={verseNo} animate={showMe}/>
+                 
                  <div className="w-100">
                  <a href="twitter.com/intent/tweet" className="float-left" id="tweet-quote">
                  <img src={tweetme} width="50px" height="50px"/></a>

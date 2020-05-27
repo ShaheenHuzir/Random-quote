@@ -18,8 +18,8 @@ class Quote extends React.Component{
                    <div>
                         <blockquote className="quote">
 
-                            <span><p>{quotes}</p></span>
-                            <cite className="float-right" id="#author">{verseNumber}</cite>
+                            <span><p id="text">{quotes}</p></span>
+                            <cite className="float-right" id="author">{verseNumber}</cite>
                         </blockquote>
 
             </div>
