@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/random-quote/static/css/main.17bdb461.chunk.css",
-    "main.js": "/random-quote/static/js/main.de30558a.chunk.js",
-    "main.js.map": "/random-quote/static/js/main.de30558a.chunk.js.map",
-    "runtime-main.js": "/random-quote/static/js/runtime-main.79f1251f.js",
-    "runtime-main.js.map": "/random-quote/static/js/runtime-main.79f1251f.js.map",
-    "static/js/2.b27f5d1a.chunk.js": "/random-quote/static/js/2.b27f5d1a.chunk.js",
-    "static/js/2.b27f5d1a.chunk.js.map": "/random-quote/static/js/2.b27f5d1a.chunk.js.map",
-    "index.html": "/random-quote/index.html",
-    "precache-manifest.0ee3ea5700affc5bb0315e21f896d68f.js": "/random-quote/precache-manifest.0ee3ea5700affc5bb0315e21f896d68f.js",
-    "service-worker.js": "/random-quote/service-worker.js",
-    "static/css/main.17bdb461.chunk.css.map": "/random-quote/static/css/main.17bdb461.chunk.css.map",
-    "static/js/2.b27f5d1a.chunk.js.LICENSE.txt": "/random-quote/static/js/2.b27f5d1a.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/random-quote/static/media/marble-background.666f565d.png"
+    "main.css": "/Random-quote/static/css/main.3b36855f.chunk.css",
+    "main.js": "/Random-quote/static/js/main.930ccb43.chunk.js",
+    "main.js.map": "/Random-quote/static/js/main.930ccb43.chunk.js.map",
+    "runtime-main.js": "/Random-quote/static/js/runtime-main.9540f100.js",
+    "runtime-main.js.map": "/Random-quote/static/js/runtime-main.9540f100.js.map",
+    "static/js/2.b27f5d1a.chunk.js": "/Random-quote/static/js/2.b27f5d1a.chunk.js",
+    "static/js/2.b27f5d1a.chunk.js.map": "/Random-quote/static/js/2.b27f5d1a.chunk.js.map",
+    "index.html": "/Random-quote/index.html",
+    "precache-manifest.c176eaf574d973d72b980be344b7776b.js": "/Random-quote/precache-manifest.c176eaf574d973d72b980be344b7776b.js",
+    "service-worker.js": "/Random-quote/service-worker.js",
+    "static/css/main.3b36855f.chunk.css.map": "/Random-quote/static/css/main.3b36855f.chunk.css.map",
+    "static/js/2.b27f5d1a.chunk.js.LICENSE.txt": "/Random-quote/static/js/2.b27f5d1a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Random-quote/static/media/marble-background.666f565d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.79f1251f.js",
+    "static/js/runtime-main.9540f100.js",
     "static/js/2.b27f5d1a.chunk.js",
-    "static/css/main.17bdb461.chunk.css",
-    "static/js/main.de30558a.chunk.js"
+    "static/css/main.3b36855f.chunk.css",
+    "static/js/main.930ccb43.chunk.js"
   ]
 }
