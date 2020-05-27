@@ -1,4 +1,5 @@
-import React from 'react';
+import {React} from 'react';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import ReactDOM from 'react-dom';
 import './index.css';
 import './App.css';
@@ -8,6 +9,9 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
     <div>
+  <BrowserRouter basename={window.location.pathname || ''}>
+  <Route exact path="/" component={Index} />
+</BrowserRouter>
     <App />
     </div>
     
